@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presentació interactiva de la Sessió 1 de formació TES">
+  <title>Sessió 1 | Introducció a les emergències</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="status"></span>
+    <div>CECOS <small>FORMACIÓ TES</small></div>
+  </div>
+  <div class="top-info">UNITAT 01 · SESSIÓ 1</div>
+  <button id="fullscreen" class="fullscreen">⛶ Pantalla completa</button>
+</header>
+
+<main class="presentation">
+
+  <section class="slide active">
+    <p class="eyebrow">FORMACIÓ · UNITAT 01</p>
+    <h1>INTRODUCCIÓ A LES EMERGÈNCIES</h1>
+    <p class="subtitle">Sessió 1 · Sistema d'emergències sanitàries</p>
+    <div class="panel">
+      <h3>OBJECTIU DE LA MISSIÓ</h3>
+      <p>Conèixer com funciona l'atenció a les emergències i quin és el paper del TES.</p>
+    </div>
+    <p class="hint">PREPARATS PER COMENÇAR?</p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">01 · OBJECTIUS</p>
+    <h1>Què aprendrem avui?</h1>
+    <ul>
+      <li>Diferenciar una urgència d'una emergència.</li>
+      <li>Conèixer els telèfons 112 i 061.</li>
+      <li>Entendre el funcionament del SEM i del CECOS.</li>
+      <li>Identificar les funcions del TES.</li>
+      <li>Aplicar la conducta PAS.</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">02 · CAS INICIAL</p>
+    <h1>Imagina aquesta situació...</h1>
+    <div class="panel">
+      <p>Una persona cau al carrer. No respon quan li parleu i sembla que no respira amb normalitat.</p>
+      <h3>Què faries primer?</h3>
+      <p>Abans d'actuar, pensa en els riscos de l'escena i en com demanar ajuda.</p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">03 · CONCEPTE</p>
+    <h1>Què és una emergència sanitària?</h1>
+    <p>És una situació que pot comportar un risc greu per a la vida o la salut i que necessita una resposta immediata.</p>
+    <div class="highlight">El temps i una actuació adequada poden ser determinants.</div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">04 · DIFERÈNCIES</p>
+    <h1>Urgència o emergència?</h1>
+    <div class="cards">
+      <article class="panel">
+        <h2>URGÈNCIA</h2>
+        <p>Necessita atenció sanitària en un temps raonable, però no sempre hi ha risc vital immediat.</p>
+      </article>
+      <article class="panel danger">
+        <h2>EMERGÈNCIA</h2>
+        <p>Hi ha un risc greu o potencialment vital i cal una resposta immediata.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">05 · ACTIVITAT INTERACTIVA</p>
+    <h1>Classifica la situació</h1>
+    <p>Una persona està inconscient i no respira amb normalitat.</p>
+    <div class="choices">
+      <button onclick="feedback(this,false)">A · Urgència lleu</button>
+      <button onclick="feedback(this,true)">B · Emergència</button>
+      <button onclick="feedback(this,false)">C · Situació sense risc</button>
+    </div>
+    <p class="feedback"></p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">06 · CLASSIFICACIÓ</p>
+    <h1>Tipus d'emergències</h1>
+    <ul>
+      <li>Emergències mèdiques.</li>
+      <li>Emergències traumàtiques.</li>
+      <li>Emergències respiratòries.</li>
+      <li>Emergències cardiovasculars.</li>
+      <li>Incidents amb múltiples víctimes.</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">07 · TEMPS</p>
+    <h1>El factor temps</h1>
+    <p>En una emergència, cada minut pot ser important. La detecció precoç, l'alerta i la coordinació permeten activar els recursos adequats.</p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">08 · SISTEMA</p>
+    <h1>Emergències a Catalunya</h1>
+    <p>El sistema d'emergències sanitàries coordina diferents professionals i recursos per donar resposta a les necessitats de la població.</p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">09 · TELÈFONS</p>
+    <h1>112 i 061</h1>
+    <div class="cards">
+      <article class="panel">
+        <h2>112</h2>
+        <p>Telèfon únic d'emergències per comunicar situacions que necessiten ajuda urgent.</p>
+      </article>
+      <article class="panel">
+        <h2>061</h2>
+        <p>Salut Respon: orientació i atenció sanitària telefònica a Catalunya.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">10 · SEM</p>
+    <h1>Servei d'Emergències Mèdiques</h1>
+    <p>El SEM és el servei que dona resposta a les emergències i urgències sanitàries a Catalunya mitjançant professionals i recursos assistencials.</p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">11 · COORDINACIÓ</p>
+    <h1>Què és el CECOS?</h1>
+    <p>És el centre de coordinació del SEM. Rep i gestiona les demandes d'assistència sanitària i coordina la resposta dels recursos disponibles.</p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">12 · ACTIVACIÓ</p>
+    <h1>De la trucada a l'assistència</h1>
+    <div class="steps">
+      <div>01 · Trucada</div>
+      <div>02 · Valoració</div>
+      <div>03 · Coordinació</div>
+      <div>04 · Activació</div>
+      <div>05 · Assistència</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">13 · PROFESSIÓ</p>
+    <h1>El paper del TES</h1>
+    <ul>
+      <li>Atendre el pacient dins de les seves competències.</li>
+      <li>Col·laborar amb l'equip assistencial.</li>
+      <li>Preparar i revisar el material.</li>
+      <li>Garantir la seguretat durant el servei.</li>
+      <li>Comunicar informació rellevant.</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">14 · ASSISTÈNCIA</p>
+    <h1>La cadena assistencial</h1>
+    <p>Detecció → Alerta → Resposta → Assistència → Trasllat, si escau → Continuïtat assistencial.</p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">15 · PAS</p>
+    <h1>Protegir, Alertar, Socórrer</h1>
+    <div class="cards">
+      <article class="panel"><h2>01 · PROTEGIR</h2><p>Assegurar l'escena i evitar nous riscos.</p></article>
+      <article class="panel"><h2>02 · ALERTAR</h2><p>Trucar als serveis d'emergència i donar informació clara.</p></article>
+      <article class="panel"><h2>03 · SOCÓRRER</h2><p>Actuar dins de les pròpies capacitats i formació.</p></article>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">16 · SEGURETAT</p>
+    <h1>La seguretat de l'escena</h1>
+    <p>Abans d'intervenir, identifica riscos com el trànsit, el foc, l'electricitat, els productes perillosos o la violència.</p>
+    <div class="highlight">No et converteixis en una nova víctima.</div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">17 · CICLE DE SERVEI</p>
+    <h1>Abans, durant i després</h1>
+    <ul>
+      <li><b>Abans:</b> revisar vehicle i material.</li>
+      <li><b>Durant:</b> actuar coordinadament i assistir el pacient.</li>
+      <li><b>Després:</b> reposar material, netejar i registrar el servei.</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">18 · CAS PRÀCTIC</p>
+    <h1>Accident de trànsit</h1>
+    <p>Arribeu a un accident amb dos vehicles. Hi ha persones a l'interior i circulació al voltant.</p>
+    <h3>Quina és la primera prioritat?</h3>
+    <div class="choices">
+      <button onclick="feedback(this,false)">A · Córrer cap als ferits</button>
+      <button onclick="feedback(this,true)">B · Valorar la seguretat de l'escena</button>
+      <button onclick="feedback(this,false)">C · Moure els vehicles</button>
+    </div>
+    <p class="feedback"></p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">19 · DECISIÓ</p>
+    <h1>Què faries?</h1>
+    <p>Detectes un cable elèctric caigut a prop d'una víctima.</p>
+    <div class="choices">
+      <button onclick="feedback(this,false)">A · Tocar la víctima immediatament</button>
+      <button onclick="feedback(this,true)">B · Mantenir distància i alertar els serveis competents</button>
+      <button onclick="feedback(this,false)">C · Apartar el cable amb les mans</button>
+    </div>
+    <p class="feedback"></p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">20 · TEST FINAL</p>
+    <h1>Comprovem què hem après</h1>
+    <p>Quin telèfon correspon al número únic europeu d'emergències?</p>
+    <div class="choices">
+      <button onclick="feedback(this,false)">A · 061</button>
+      <button onclick="feedback(this,true)">B · 112</button>
+      <button onclick="feedback(this,false)">C · 010</button>
+    </div>
+    <p class="feedback"></p>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">21 · REPTE FINAL</p>
+    <h1>Missió completada?</h1>
+    <p>Explica amb les teves paraules què faries davant d'una emergència i per què la seguretat de l'escena és prioritària.</p>
+    <div class="highlight">Un bon TES observa, valora, comunica i actua amb seguretat.</div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">22 · FINAL DE SESSIÓ</p>
+    <h1>GRÀCIES PER LA VOSTRA ATENCIÓ</h1>
+    <p class="subtitle">CECOS · Formació en emergències sanitàries</p>
+    <p>La pròxima missió comença aquí.</p>
+  </section>
+
+</main>
+
+<footer class="controls">
+  <button id="prev">← Anterior</button>
+  <div class="progress"><div id="bar"></div></div>
+  <span id="counter-bottom">01 / 22</span>
+  <button id="next">Següent →</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
